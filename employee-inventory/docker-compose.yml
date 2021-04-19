@@ -1,0 +1,21 @@
+services:
+   mysql:
+      image: mysql:8.0
+      ports:
+         - 3306:3306
+      expose:
+         - 3306
+      environment:
+         - MYSQL_ROOT_PASSWORD=root
+         - MYSQL_PASSWORD=root
+         - MYSQL_DATABASE=inventory
+   employee-inventory:
+      image: employee-inventory:latest
+      depends_on:
+         - mysql
+      ports:
+         - 8090:8090
+      environment:
+         DB_HOST_PORT: mysql:3306
+         DB_USERNAME: root
+         DB_PASSWORD: root  
