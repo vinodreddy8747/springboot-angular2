@@ -14,6 +14,8 @@ Step1). Install docker if not exists - https://docs.docker.com/engine/install/
 
 Step2). -> Navigate to application folder 
 
+        -> docker container prune  -> enter 'y' (this needed for running application second time)
+
         -> Run command "docker-compose -f docker-compose-only.yml up" to start dependencies
         
 Step3). Run the spring boot application from IDE (STS) or open cli and run "mvn spring-boot:run"
