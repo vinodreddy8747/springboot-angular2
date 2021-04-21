@@ -1,8 +1,8 @@
 # springboot-angular
 
-# Task1 : As part of application startup we read csv flatfile and write to employee table
-# Task2 : Create Employee crud and Ui for add employee and list employee
-# Task3 : Login and sign up pages
+Task1 : As part of application startup we read csv flatfile and write to employee table
+Task2 : Create Employee crud and Ui for add employee and list employee
+Task3 : Login and sign up pages
 
 # Employee Inventory backend
 
