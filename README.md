@@ -1,5 +1,11 @@
 # springboot-angular
 
+Task1 : As part of application startup we read csv flatfile and write to employee table
+
+Task2 : Create Employee crud and Ui for add employee and list employee
+
+Task3 : Login and sign up pages
+
 # Employee Inventory backend
 
 Employee UI spring boot application.
@@ -13,6 +19,8 @@ Run the Application:
 Step1). Install docker if not exists - https://docs.docker.com/engine/install/
 
 Step2). -> Navigate to application folder 
+
+        -> docker container prune  -> enter 'y' (this needed for running application second time)
 
         -> Run command "docker-compose -f docker-compose-only.yml up" to start dependencies
         
